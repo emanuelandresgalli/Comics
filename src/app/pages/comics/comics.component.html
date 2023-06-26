@@ -1,0 +1,86 @@
+<section>
+  <ul>
+    <li *ngFor="let comic of listaComics">
+      <h4>{{ comic.title }}</h4>
+      <img src="{{ comic.cover }}" alt="{{ comic.title }}" />
+      <h4>{{ comic.company }}</h4>
+      <button routerLink="/comics/{{comic.id}}">Ver Más</button>
+    </li>
+  </ul>
+  <div class="contenedorTexto">
+    <div class="contenedorIndividual">
+      <h1>Marvel</h1>
+      <h2>
+        Es una compañía de cómics y entretenimiento que comenzó en 1939 como
+        Timely Publications y evolucionó para convertirse en Atlas Comics y,
+        finalmente, en Marvel Comics. Durante décadas, Marvel ha creado
+        personajes icónicos como Spider-Man, Iron Man, Hulk, Thor y los X-Men,
+        que han cautivado a los lectores con sus aventuras llenas de acción y
+        dramas emocionales. En la década de 2000, Marvel Studios comenzó a
+        producir películas basadas en estos personajes, dando inicio al Universo
+        Cinematográfico de Marvel (MCU), que se expandió rápidamente y se
+        convirtió en un fenómeno mundial. Con historias interconectadas y
+        emocionantes, el MCU ha capturado la imaginación de millones de personas
+        en todo el mundo, fusionando el mundo de los cómics con el cine y
+        estableciendo nuevas formas de contar historias en el universo Marvel.
+      </h2>
+    </div>
+    <div class="contenedorIndividual">
+      <h1>DC Comics</h1>
+      <h2>
+        Es una editorial de cómics que se remonta a 1934, cuando fue fundada
+        como National Allied Publications. Ha dado vida a personajes icónicos
+        como Superman, Batman, Wonder Woman y Flash, entre muchos otros. A lo
+        largo de los años, DC ha construido un vasto universo de superhéroes y
+        villanos, explorando diversos mundos y realidades a través de sus
+        cómics. Estos personajes también han trascendido al cine, la televisión
+        y otros medios, dejando una huella perdurable en la cultura popular. Con
+        historias épicas de heroísmo, tramas complejas y un enfoque en la
+        mitología moderna, DC Comics ha dejado un legado duradero en el género
+        de los superhéroes y ha inspirado a generaciones de fans en todo el
+        mundo.
+      </h2>
+    </div>
+    <div class="contenedorIndividual">
+      <h1>Joker</h1>
+      <h2>
+        también conocido como el Guasón, es uno de los villanos más emblemáticos
+        de la historia de los cómics. Apareció por primera vez en 1940 en Batman
+        #1 y se ha convertido en el archienemigo del Caballero Oscuro. El Joker,
+        cuyo nombre real y origen son misteriosos, es un maestro del caos y la
+        anarquía, caracterizado por su risa maníaca y su apariencia desquiciada.
+        Su principal objetivo es sembrar el caos en Gotham City y poner a prueba
+        la moralidad de Batman. A lo largo de los años, el Joker ha
+        protagonizado innumerables historias, mostrando su inteligencia
+        retorcida y su capacidad para llevar a cabo crímenes atroces.
+      </h2>
+    </div>
+    <div class="contenedorIndividual">
+      <h1>Hulk</h1>
+      <h2>
+        Hulk es un personaje de Marvel Comics que apareció por primera vez en
+        1962. Creado por Stan Lee y Jack Kirby, Hulk es la contraparte alter ego
+        del científico Bruce Banner. Después de ser expuesto a una intensa
+        radiación gamma, Banner se transforma en Hulk, una criatura de increíble
+        fuerza y poder desatado. A lo largo de su historia, Hulk ha luchado con
+        su propia ira y su lucha interna por el control. Considerado como un
+        monstruo por algunos y un héroe por otros, Hulk ha participado en
+        numerosas batallas épicas, ha sido miembro de los Vengadores y ha
+        enfrentado amenazas cósmicas.
+      </h2>
+    </div>
+    <div class="contenedorIndividual">
+      <h1>Superman</h1>
+      <h2>
+        El Hombre de Acero, es uno de los superhéroes más icónicos de DC Comics.
+        Creado por Jerry Siegel y Joe Shuster en 1938, Superman es el último
+        hijo del planeta Krypton, enviado a la Tierra antes de su destrucción.
+        Criado como Clark Kent por una familia terrícola, descubre que tiene
+        habilidades sobrehumanas debido a la radiación del sol amarillo de la
+        Tierra. Adoptando la identidad de Superman, se convierte en el defensor
+        de la justicia y la verdad, luchando contra villanos poderosos y
+        protegiendo Metrópolis y el mundo de las amenazas.
+      </h2>
+    </div>
+  </div>
+</section>

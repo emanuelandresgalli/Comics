@@ -1,0 +1,12 @@
+<ul>
+  <li>
+    <h1>{{ comic.title }}</h1>
+    <img src="{{ comic.cover }}" alt="{{ comic.title }}" />
+    <p>Compañia: {{ comic.company }}</p>
+  </li>
+  <li>
+    <p class="text">About Me: {{ comic.aboutme }}</p>
+    <button  (click)="deleteComic()">Eliminar Personaje</button>
+    <button  (click)="patchComic(comic)">Editar Personaje</button>
+  </li>
+</ul>

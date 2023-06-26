@@ -1,0 +1,10 @@
+
+<form [formGroup]="comicForm" (ngSubmit)="onSubmit()">
+    <input formControlName="title" placeholder="titulo">
+    <input formControlName="author" placeholder="author">
+    <input formControlName="company" placeholder="compañia">
+    <input formControlName="cover " placeholder="Imagen">
+    <input formControlName="aboutme" placeholder="About Personaje">
+    <input formControlName="id" placeholder="Id">
+    <button type="submit">Submit</button>
+</form>
